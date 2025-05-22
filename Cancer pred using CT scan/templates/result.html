@@ -1,0 +1,23 @@
+#result.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+</head>
+<body>
+    <h1>CT Scan Analysis Result</h1>
+
+    <p><strong>Predicted Class:</strong> {{ predicted_class }}</p>
+
+    <p><strong>Predicted Probabilities:</strong></p>
+    <ul>
+        {% for class_label, probability in predicted_probabilities.items() %}
+            <li>{{ class_label }}: {{ probability }}</li>
+        {% endfor %}
+    </ul>
+
+    <!-- Add any additional information or styling as needed -->
+</body>
+</html>
