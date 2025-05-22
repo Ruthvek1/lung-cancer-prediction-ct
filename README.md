@@ -21,9 +21,3 @@ The dataset used for this project consists of CT scan images, typically sourced 
 
 You must download and preprocess the dataset accordingly before training.
 
-## ⚙️ Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/lung-cancer-ct-prediction.git
-   cd lung-cancer-ct-prediction
